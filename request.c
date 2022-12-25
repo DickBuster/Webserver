@@ -110,7 +110,7 @@ void httpWorker(int *sockfd, char *inputBuffer)
 
     if (x)
     {
-        sleep(4);
+        //sleep(4);
         // Dynamic
         char respHeader[256] = "HTTP/1.0 200 OK\r\n";
         printf("Network Sock: %d\n", newsockfd);
