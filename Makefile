@@ -2,7 +2,6 @@ CC = gcc
 CFLAGS = -g
 TARGET = all
 OBJS = main.o request.o queue.o multiply.o
-
 all: multiply.cgi server
 
 
